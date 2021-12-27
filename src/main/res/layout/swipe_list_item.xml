@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:dragEdge="right"
+    app:mode="same_level">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/delete_swipe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/delete"
+            android:textSize="25sp"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/block_swipe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="Block"
+            android:textSize="25sp"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/user_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="User Uid" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="User Name" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="User Email" />
+
+        <TextView
+            android:id="@+id/user_registration_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Registration date" />
+
+        <TextView
+            android:id="@+id/user_last_sign_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Last Sign date" />
+
+        <TextView
+            android:id="@+id/user_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Status" />
+    </LinearLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

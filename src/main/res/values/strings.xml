@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="register_app">Register App</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="register">Register</string>
+    <string name="delete">Delete</string>
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="swipe_left_for_more_actions_with_users">Swipe left for more actions with users</string>
+</resources>
